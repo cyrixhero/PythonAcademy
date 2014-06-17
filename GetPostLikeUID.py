@@ -32,7 +32,7 @@ counts = len(audiences)
 print ("Members:" + str(counts))
 
 # dump contents to file:
-outputFile = "Your CSV file Path"
+outputFile = "/Users/cyrix/Desktop/uid.csv"
 output = open(outputFile, "w")
 print("Dumping to file...")
 
